@@ -56,8 +56,7 @@ On this screen, a QR Code will appear. Right click the image and save it to some
 Step 7.2: Putting the QR code into an app like authy ( backup incase of issues):
 Now before we do anything else, lets get this into a legit authenticator app so you can still use it if something goes wrong.
 
-Step 7.3: Get Secret from QR code:
-My go to website for prasing QR codes is https://nimiq.github.io/qr-scanner/demo/
+My go-to website for prasing QR codes is https://nimiq.github.io/qr-scanner/demo/
 Once the page is loaded you should see "Scan from File" at the bottom, Load your QR code
 You should see something Similar to the following.
 otpauth://totp/Square%20Enix%20ID:kaynub?secret=00000000000000000000000000&issuer=Square%20Enix%20ID&algorithm=SHA1&digits=6&period=30
