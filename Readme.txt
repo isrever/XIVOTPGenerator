@@ -36,6 +36,7 @@ this command will generate a file named XIVOTPGenerator.class
 
 Step 5: Run the Java Program
 Once the compilation is successful, you can run the XIVOTPGenerator class using the java command:
+java XIVOTPGenerator
 
 Step 6: Follow the Program Instructions
 The program will start running and perform the following tasks:
