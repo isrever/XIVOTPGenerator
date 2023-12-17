@@ -48,7 +48,7 @@ Simulate typing the OTP into the active window (XIVLauncher).
 Please follow any on-screen instructions and ensure that your secret key is correctly configured in the otp_config.cfg file.
 
 Step 7: Configuring your Secret
-Go to MogStation, log in, and go to the One Time Password page. Click on the "Software Authenticator" button at the bottom. Another button "Software Authenticator Registration" will appear -- click it.
+Go to MogStation, log in, and go to the One Time Password page. Click on the "Software Authenticator" button at the bottom. Another button "Software Authenticator Registration" will appear, press it.
 
 Step 7.1: Getting Secret from QR code:
 On this screen, a QR Code will appear. Right click the image and save it to somewhere on your PC, like your desktop.
