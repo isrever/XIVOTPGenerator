@@ -50,6 +50,13 @@ Please follow any on-screen instructions and ensure that your secret key is corr
 Step 7: Exit the Program
 After the program completes its tasks, it will exit automatically.
 
+Step 8: Build a JAR File
+To package the OTPGenerator Java application into a JAR (Java Archive) file, you can use the jar command with a manifest file that specifies the main class. Here are the steps to create the JAR file:
+jar cfm OTPGenerator.jar manifest.txt *.class
+
+Step 9: Running a JAR File:
+java -jar XIVOTPGenerator.jar
+
 Note:
 Ensure that you have the necessary permissions to access the directory and execute Java commands.
 Make sure your Java installation is properly configured.
