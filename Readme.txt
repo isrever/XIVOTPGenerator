@@ -47,14 +47,30 @@ Generate a One-Time Password (OTP) based on the loaded secret key.
 Simulate typing the OTP into the active window (XIVLauncher).
 Please follow any on-screen instructions and ensure that your secret key is correctly configured in the otp_config.cfg file.
 
-Step 7: Exit the Program
+Step 7: Configuring your Secret
+Go to MogStation, log in, and go to the One Time Password page. Click on the "Software Authenticator" button at the bottom. Another button "Software Authenticator Registration" will appear -- click it.
+
+Step 7.1: Getting Secret from QR code:
+On this screen, a QR Code will appear. Right click the image and save it to somewhere on your PC, like your desktop.
+
+Step 7.2: Putting the QR code into an app like authy ( backup incase of issues):
+Now before we do anything else, lets get this into a legit authenticator app so you can still use it if something goes wrong.
+
+Step 7.3: Get Secret from QR code:
+My go to website for prasing QR codes is https://nimiq.github.io/qr-scanner/demo/
+Once the page is loaded you should see "Scan from File" at the bottom, Load your QR code
+You should see something Similar to the following.
+otpauth://totp/Square%20Enix%20ID:kaynub?secret=00000000000000000000000000&issuer=Square%20Enix%20ID&algorithm=SHA1&digits=6&period=30
+You want to then copy your secret and paste it into otp_config.cfg and save the file
+
+Step 8: Exit the Program
 After the program completes its tasks, it will exit automatically.
 
-Step 8: Build a JAR File
+Step 9: Build a JAR File
 To package the OTPGenerator Java application into a JAR (Java Archive) file, you can use the jar command with a manifest file that specifies the main class. Here are the steps to create the JAR file:
 jar cfm OTPGenerator.jar manifest.txt *.class
 
-Step 9: Running a JAR File:
+Step 10: Running a JAR File:
 java -jar XIVOTPGenerator.jar
 
 Note:
